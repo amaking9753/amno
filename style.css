@@ -10,11 +10,24 @@ width:100%;
 }
 header{
 padding:10px;
+position:fixed;
+background-color:white;
+width:100%;
+
+}
+.header-img{
+background-image:url("../img/background1.png");
+background-repeat:no-repeat;
+background-size:500px;
+height:300px;
+width:100%;
+margin-top:50px;
+
 }
 .icon{
 position:absolute;
 top:10px;
-right:10px;
+right:30px;
 }
 .icon span{
 font-size:40px;
@@ -29,23 +42,51 @@ color:skyblue;
 
 }
 main{
-background-color:skyblue;
-padding:15px;
+width:100%;
 padding-top:30px;
+}
+.baner{
+padding:10px;
+
 }
 .discription{
 background-color:white;
-padding:10px;
 border-radius:10px;
+}
+.discription2{
+padding:10px;
 }
 .discription h2{
   text-align:center;
   font-family: 'Nerko One', cursive;
-  padding:10px;
+  padding:30px;
 }
 .discription h3{
 line-height:50px;
 letter-spacing:5px;
+}
+.before-after{
+padding:10px;
+}
+.container{
+display:flex;
+margin-top:20px;
+}
+.myimg2{
+width:200px;
+margin-right:10px;
+}
+.moji{
+width:150px;
+}
+.nagare h3{
+color:orange;
+text-shadow:5px 10px 5px #666666;
+}
+.nagare h4{
+padding:10px;
+text-align:right;
+color:tomato
 }
 footer{
   padding:30px;
