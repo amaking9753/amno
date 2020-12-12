@@ -1,0 +1,103 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+height:100%;
+}
+img{
+width:100%;
+}
+header{
+padding:10px;
+}
+.icon{
+position:absolute;
+top:10px;
+right:10px;
+}
+.icon span{
+font-size:40px;
+}
+#Mybotton{
+color:orange;
+}
+header h1{
+text-align:center;
+font-family: 'Langar', cursive;
+color:skyblue;
+
+}
+main{
+background-color:skyblue;
+padding:15px;
+padding-top:30px;
+}
+.discription{
+background-color:white;
+padding:10px;
+border-radius:10px;
+}
+.discription h2{
+  text-align:center;
+  font-family: 'Nerko One', cursive;
+  padding:10px;
+}
+.discription h3{
+line-height:50px;
+letter-spacing:5px;
+}
+footer{
+  padding:30px;
+  text-align:center;
+}
+.mymenu{
+background-color:rgba(255,255,255,0.9);
+position:fixed;
+top:0;
+right:0;
+bottom:0;
+left:0;
+opacity:0;
+pointer-events:none;
+
+}
+.myicon2{
+position:absolute;
+top:10px;
+right:10px;
+}
+.myicon2 span{
+font-size:40px;
+}
+#myicon3{
+color:orange;
+}
+.mymenu ul{
+  margin-top:200px;
+}
+.mymenu ul li{
+text-align:center;
+font-size:30px;
+}
+.bisvle{
+opacity:1;
+pointer-events:auto;
+animation-name:a;
+animation-duration:3s;
+}
+.heddin{
+opacity:0;
+pointer-event:none;
+}
+.open{
+display:none;
+}
+@keyframes a{
+ 0%{
+ opacity:0
+ }
+ 100%{
+ opacity:1
+ }
+} 
