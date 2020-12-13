@@ -111,6 +111,19 @@ line-height:20px;
 .situmonn2{
 padding:10px;
 }
+.acsece2{
+padding:10px;
+}
+.acsece2 h4{
+text-align:right;
+padding:10px 0;
+}
+.acsece .iframe {
+width:100%;
+}
+.acsece .iframe iframe{
+width:100%;
+}
 footer{
   padding:30px;
   text-align:center;
@@ -166,4 +179,5 @@ display:none;
  100%{
  opacity:1
  }
-} 
+}
+ 
