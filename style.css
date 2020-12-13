@@ -16,13 +16,16 @@ width:100%;
 
 }
 .header-img{
-background-image:url("background1.png");
+background-image:url("header.jpg");
 background-repeat:no-repeat;
-background-size:500px;
+background-size:400px;
 height:300px;
 width:100%;
 margin-top:50px;
-
+font-size:40px;
+text-align:center;
+line-height:300px;
+color:white;
 }
 .icon{
 position:absolute;
@@ -45,32 +48,41 @@ main{
 width:100%;
 padding-top:30px;
 }
-.baner{
-padding:10px;
 
-}
 .discription{
 background-color:white;
 border-radius:10px;
 }
 .discription2{
-padding:10px;
+margin-top:30px;
 }
 .discription h2{
   text-align:center;
   font-family: 'Nerko One', cursive;
   padding:30px;
+  background-image:url("blue.jpg");
+  background-repeat:no-repeat;
+  letter-spacing:10px;
+}
+.baner figure{
+padding:20px;
+}
+.baner2{
+padding:20px;
 }
 .discription h3{
 line-height:50px;
 letter-spacing:5px;
 }
-.before-after{
+.caption{
 padding:10px;
+}
+.before-after{
 }
 .container{
 display:flex;
 margin-top:20px;
+padding:10px;
 }
 .myimg2{
 width:200px;
@@ -78,6 +90,10 @@ margin-right:10px;
 }
 .moji{
 width:150px;
+}
+.nagare2{
+padding:10px;
+
 }
 .nagare h3{
 color:orange;
@@ -88,9 +104,18 @@ padding:10px;
 text-align:right;
 color:tomato
 }
+.situmonn h3{
+letter-spacing:10px;
+line-height:20px;
+}
+.situmonn2{
+padding:10px;
+}
 footer{
   padding:30px;
   text-align:center;
+  background-color:skyblue;
+  color:white;
 }
 .mymenu{
 background-color:rgba(255,255,255,0.9);
