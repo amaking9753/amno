@@ -36,12 +36,12 @@ right:30px;
 font-size:40px;
 }
 #Mybotton{
-color:orange;
+color:black;
 }
 header h1{
 text-align:center;
 font-family: 'Langar', cursive;
-color:skyblue;
+color:black;
 
 }
 main{
@@ -60,7 +60,7 @@ margin-top:30px;
   text-align:center;
   font-family: 'Nerko One', cursive;
   padding:30px;
-  background-image:url("blue.jpg");
+  background-image:url("midori.jpg");
   background-repeat:no-repeat;
   letter-spacing:10px;
 }
@@ -96,13 +96,12 @@ padding:10px;
 
 }
 .nagare h3{
-color:orange;
-text-shadow:5px 10px 5px #666666;
+color:brack;
 }
 .nagare h4{
 padding:10px;
 text-align:right;
-color:tomato
+color:black;
 }
 .situmonn h3{
 letter-spacing:10px;
@@ -110,6 +109,9 @@ line-height:20px;
 }
 .situmonn2{
 padding:10px;
+}
+.groop{
+margin-bottom:20px;
 }
 .acsece2{
 padding:10px;
@@ -127,8 +129,8 @@ width:100%;
 footer{
   padding:30px;
   text-align:center;
-  background-color:skyblue;
-  color:white;
+  background-color:rgb(240,249,224);
+  color:black;
 }
 .mymenu{
 background-color:rgba(255,255,255,0.9);
@@ -150,7 +152,7 @@ right:10px;
 font-size:40px;
 }
 #myicon3{
-color:orange;
+color:lime;
 }
 .mymenu ul{
   margin-top:200px;
